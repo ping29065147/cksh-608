@@ -3,9 +3,9 @@
 
 int main()
 {
-    int i=1, a;
+    int i, a;
 
-    for(; i<6; i++){
+    for(i=1; i<6; i++){
         for(a=i; a>0; a--)
             printf("*");
         printf("\n");
